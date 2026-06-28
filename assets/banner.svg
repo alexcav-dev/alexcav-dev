@@ -1,0 +1,105 @@
+<svg width="100%" height="100%" viewBox="0 0 1280 640" xmlns="http://www.w3.org/2000/svg" style="position:absolute;top:0;left:0;">
+  <defs>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M60 0L0 0 0 60" fill="none" stroke="#5B21B6" stroke-width="0.3" opacity="0.10"/>
+    </pattern>
+    <linearGradient id="fl" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#120F26" stop-opacity="1"/>
+      <stop offset="30%" stop-color="#120F26" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="fr" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="70%" stop-color="#120F26" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#120F26" stop-opacity="1"/>
+    </linearGradient>
+    <linearGradient id="ft" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#120F26" stop-opacity="1"/>
+      <stop offset="40%" stop-color="#120F26" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="fb" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="60%" stop-color="#120F26" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#120F26" stop-opacity="1"/>
+    </linearGradient>
+    <linearGradient id="dg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#120F26" stop-opacity="0"/>
+      <stop offset="28%"  stop-color="#5B21B6" stop-opacity="0.9"/>
+      <stop offset="50%"  stop-color="#A855F7" stop-opacity="1"/>
+      <stop offset="72%"  stop-color="#5B21B6" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#120F26" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="640" fill="#120F26"/>
+  <rect width="1280" height="640" fill="url(#grid)"/>
+  <rect width="1280" height="640" fill="url(#fl)"/>
+  <rect width="1280" height="640" fill="url(#fr)"/>
+  <rect width="1280" height="640" fill="url(#ft)"/>
+  <rect width="1280" height="640" fill="url(#fb)"/>
+
+  <line x1="0"   y1="640" x2="430" y2="0"    stroke="#A855F7" stroke-width="0.4" opacity="0.07"/>
+  <line x1="180" y1="640" x2="610" y2="0"    stroke="#A855F7" stroke-width="0.4" opacity="0.04"/>
+  <line x1="850" y1="0"   x2="1280" y2="640" stroke="#A855F7" stroke-width="0.4" opacity="0.07"/>
+  <line x1="670" y1="0"   x2="1100" y2="640" stroke="#A855F7" stroke-width="0.4" opacity="0.04"/>
+
+  <circle cx="160"  cy="100" r="200" fill="none" stroke="#5B21B6" stroke-width="0.4" opacity="0.09"/>
+  <circle cx="160"  cy="100" r="300" fill="none" stroke="#5B21B6" stroke-width="0.4" opacity="0.05"/>
+  <circle cx="1120" cy="540" r="210" fill="none" stroke="#5B21B6" stroke-width="0.4" opacity="0.09"/>
+  <circle cx="1120" cy="540" r="320" fill="none" stroke="#5B21B6" stroke-width="0.4" opacity="0.05"/>
+
+  <rect x="48" y="40" width="1184" height="560" rx="2" fill="none" stroke="#5B21B6" stroke-width="0.4" opacity="0.12"/>
+
+  <text x="640" y="196"
+    font-family="system-ui,-apple-system,Helvetica Neue,sans-serif"
+    font-size="72" font-weight="600" fill="#FFFFFF"
+    text-anchor="middle" letter-spacing="1.5">Alex Cavalcante Costa</text>
+
+  <text x="640" y="242"
+    font-family="system-ui,-apple-system,Helvetica Neue,sans-serif"
+    font-size="15" font-weight="300" fill="#A855F7"
+    text-anchor="middle" letter-spacing="5" opacity="0.85">SOFTWARE DEVELOPER IN TRAINING</text>
+
+  <rect x="240" y="268" width="800" height="0.5" fill="url(#dg)" opacity="0.9"/>
+
+  <text x="640" y="302"
+    font-family="system-ui,-apple-system,Helvetica Neue,sans-serif"
+    font-size="13.5" font-weight="400" fill="#CFCFCF"
+    text-anchor="middle" letter-spacing="3.5" opacity="0.76">CYBERSECURITY  ·  SOFTWARE DEVELOPMENT  ·  DATA ANALYSIS</text>
+
+  <rect x="360" y="322" width="560" height="0.5" fill="url(#dg)" opacity="0.55"/>
+
+  <text x="640" y="384"
+    font-family="system-ui,-apple-system,Helvetica Neue,sans-serif"
+    font-size="17" font-weight="300" fill="#CFCFCF"
+    text-anchor="middle" letter-spacing="0.5" opacity="0.65">Building practical solutions,</text>
+  <text x="640" y="410"
+    font-family="system-ui,-apple-system,Helvetica Neue,sans-serif"
+    font-size="17" font-weight="300" fill="#CFCFCF"
+    text-anchor="middle" letter-spacing="0.5" opacity="0.65">one project at a time.</text>
+
+  <rect x="360" y="438" width="560" height="0.5" fill="url(#dg)" opacity="0.55"/>
+
+  <!-- Icons moved to y=491 (466+25) -->
+  <g opacity="0.62" fill="#FFFFFF">
+    <g transform="translate(475,491) scale(1.346)">
+      <path d="M2.5 0L0 27.5 13 31l13-3.5L23.5 0H2.5zm17.3 8.8l-.3 2.8H8.5l.3 3h10.6l-.9 9.7-5.5 1.5-5.5-1.5-.4-4.2H9.8l.2 1.9 3 .8 3-.8.3-3.6H7.1L6.1 8.8h13.7z"/>
+    </g>
+    <g transform="translate(549,491) scale(1.346)">
+      <path d="M2.5 0L0 27.5 13 31l13-3.5L23.5 0H2.5zm17.1 8.8l-.2 1.8H8.3l.2 2.3h10.7l-.6 6.4-5.6 1.6-5.6-1.6-.3-3.8h2.6l.2 1.8 3.1.9 3.1-.9.3-3.1H7.5L6.6 8.8h13z"/>
+    </g>
+    <g transform="translate(623,491) scale(1.346)">
+      <path d="M0 0h26v26H0z" fill="none" stroke="#FFFFFF" stroke-width="0.6" opacity="0.5"/>
+      <path d="M7 18.5c.5.8 1.1 1.4 2.3 1.4 1 0 1.6-.5 1.6-1.2 0-.8-.7-1.1-1.8-1.6l-.6-.3c-1.8-.8-3-1.7-3-3.7 0-1.8 1.4-3.2 3.6-3.2 1.6 0 2.7.5 3.5 1.9l-1.9 1.2c-.4-.7-.9-1-1.6-1-.7 0-1.1.4-1.1 1 0 .7.4 1 1.5 1.4l.6.3c2.1.9 3.3 1.8 3.3 3.9 0 2.2-1.7 3.4-4 3.4-2.3 0-3.7-1.1-4.4-2.5L7 18.5zm9.3.3c.6 1 1.2 1.8 2.5 1.8 1.3 0 2.1-.5 2.1-2.4V10h2.4v8.3c0 3.9-2.3 5.7-5.6 5.7-3 0-4.7-1.6-5.6-3.4l2.2-1.8z"/>
+    </g>
+    <g transform="translate(697,491) scale(1.346)">
+      <path d="M25.4 11.7L14.3.6a2.1 2.1 0 00-2.9 0L9 3l3.6 3.6a2.4 2.4 0 013.1 3.1L19 13a2.4 2.4 0 012.3 4 2.4 2.4 0 01-3.4 0 2.4 2.4 0 01-.5-2.6l-3.3-3.3v8.7a2.4 2.4 0 01.6 4.6 2.4 2.4 0 01-2.4-2.4 2.4 2.4 0 011.4-2.2V11a2.4 2.4 0 01-1.4-2.2A2.4 2.4 0 0115 6.4L11.5 2.9 1.6 12.8a2.1 2.1 0 000 2.9L12.7 26.8a2.1 2.1 0 002.9 0l9.8-9.8a2.1 2.1 0 000-3.3z"/>
+    </g>
+    <g transform="translate(771,491) scale(1.346)">
+      <path d="M13 .5C6.1.5.5 6.2.5 13c0 5.5 3.6 10.2 8.5 11.9.6.1.8-.3.8-.6v-2c-3.4.7-4.1-1.6-4.1-1.6-.6-1.4-1.4-1.8-1.4-1.8-1.1-.8.1-.8.1-.8 1.2.1 1.9 1.3 1.9 1.3 1.1 1.9 2.9 1.3 3.6 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.4-5.5-6.1 0-1.3.5-2.4 1.3-3.3-.1-.3-.6-1.6.1-3.3 0 0 1-.3 3.4 1.3 1-.3 2-.4 3-.4s2 .1 3 .4c2.4-1.6 3.4-1.3 3.4-1.3.7 1.7.3 3 .1 3.3.8.9 1.3 2 1.3 3.3 0 4.7-2.9 5.8-5.6 6.1.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6C22 23.2 25.5 18.5 25.5 13c0-6.8-5.6-12.5-12.5-12.5z"/>
+    </g>
+  </g>
+
+  <!-- Signature kept at y=610, now ~74px below icon baseline (~491+35=526) -->
+  <text x="1220" y="610"
+    font-family="system-ui,-apple-system,sans-serif"
+    font-size="10" font-weight="300" fill="#CFCFCF"
+    text-anchor="end" letter-spacing="2" opacity="0.20">AlexCaval-Dev</text>
+</svg>
